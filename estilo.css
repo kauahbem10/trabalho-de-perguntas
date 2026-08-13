@@ -4,7 +4,7 @@
     --cor-secundaria:green;
     --cor-destaque:red;
     --cor-texto:#000000;
-
-
-
+}
+body{
+    background-color: var(--cor-fundo);
 }
