@@ -1,5 +1,10 @@
 :root{
-    --cor-fundo:#43637E
-    --cor-principal:blue
+    --cor-fundo:#43637E;
+    --cor-principal:blue;
+    --cor-secundaria:green;
+    --cor-destaque:red;
+    --cor-texto:#000000;
+
+
 
 }
