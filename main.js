@@ -74,3 +74,11 @@ const perguntas = [
         ]
     },
 ];
+
+let atual = 0;
+let pergiuntaAtual; 
+let historiaFinal = ""
+
+function mostrarPergunta () {
+    
+}
