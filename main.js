@@ -1,3 +1,12 @@
+const caixaPrincipal = document.querySelector(.caix-caixa-principal)
+const caixaPerguntas = document.querySelector(.caix-caixa-perguntas)
+const caixaAlternativas = document.querySelector(.caix-caixa-alternativas)
+const caixaresultado = document.querySelector(.caix-caixa-resultado)
+const textoResultado = document.querySelector(.texto-resultado)
+
+
+
+
 const perguntas = [
     {
         enunciado: "voce esta dirigindo e a policia para  voce  ",
@@ -55,7 +64,7 @@ const perguntas = [
         enunciado: "voce ta correndo ape da policia",
         alternativas: [
             {
-                texto: "voce carre muito pos acharao sua arma do crime",
+                texto: "voce carre muito pos achar sua arma do crime",
                 afirmacao: "e voce e pego ."
             },
             {
