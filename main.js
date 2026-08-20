@@ -9,7 +9,7 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
     {
-        enunciado: "voce esta dirigindo e a policia para  você! ",
+        enunciado: "você está dirigindo e a policia te para! ",
         alternativas: [
             {
                 texto: "Isso é assustador!",
@@ -91,7 +91,7 @@ function mostrarPergunta () {
 
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativa){
-        
+        const botaoAlternativas- document.creatElement("button")
     }
 }
 
