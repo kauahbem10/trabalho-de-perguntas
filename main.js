@@ -9,7 +9,7 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
     {
-        enunciado: "voce esta dirigindo e a policia para  voce  ",
+        enunciado: "voce esta dirigindo e a policia para  você  ",
         alternativas: [
             {
                 texto: "Isso é assustador!",
