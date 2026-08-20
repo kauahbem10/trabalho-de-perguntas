@@ -9,7 +9,7 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
     {
-        enunciado: "voce esta dirigindo e a policia para  você  ",
+        enunciado: "voce esta dirigindo e a policia para  você! ",
         alternativas: [
             {
                 texto: "Isso é assustador!",
@@ -17,33 +17,33 @@ const perguntas = [
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "voce parau para comversar."
+                afirmacao: "você parau para comversar."
             }
         ]
     },
     {
-        enunciado: "voce para o cara e agora?",
+        enunciado: "você para o carro, e agora?",
         alternativas: [
             {
-                texto: "voce fica na veiculo e espera ele ",
+                texto: "você fica no veículo e espera ele ",
                 afirmacao: "Conseguiu fazer de forma certa."
             },
             {
-                texto: "voce sai rapido do veiculo e o policial ta suspeitando.",
-                afirmacao: "conseguiu fazer ele ter suspeita de voce ."
+                texto: "você sai rápido do veículo, e o policial está suspeitando.",
+                afirmacao: "conseguiu fazer ele ter suspeita de você ."
             }
         ]
     },
     {
-        enunciado: "voce fez tudo certa ",
+        enunciado: "você fez tudo certo ",
         alternativas: [
             {
                 texto: "deu tudo certo .",
-                afirmacao: "agora ele mandanda voce ir para casa."
+                afirmacao: "agora ele mandanda você ir para casa."
             },
             {
                 texto: "deu errado e agora tem que deixar eles verificarem seu carro.",
-                afirmacao: "eles entao olhando muito o seu carro."
+                afirmacao: "eles estão olhando muito pro seu carro."
             }
         ]
     },
@@ -51,25 +51,25 @@ const perguntas = [
         enunciado: "e agora?.",
         alternativas: [
             {
-                texto: "ja ta em casa de boa.",
-                afirmacao: "ta vendo tv."
+                texto: "ja está em casa, de boa.",
+                afirmacao: "vendo tv."
             },
             {
-                texto: "eles encontrarao uma arma.",
-                afirmacao: "ta cheio de sangue e agora"
+                texto: "eles encontraram uma arma.",
+                afirmacao: "está cheio de sangue, e agora?"
             }
         ]
     },
     {
-        enunciado: "voce ta correndo ape da policia",
+        enunciado: "você está correndo da policia, a pé",
         alternativas: [
             {
-                texto: "voce carre muito pos achar sua arma do crime",
-                afirmacao: "e voce e pego ."
+                texto: "você corre muito pois os policiais acharam a arma do crime",
+                afirmacao: "e você é pego ."
             },
             {
-                texto: "voce tenta matar os policiais.",
-                afirmacao: "e acaba sendo baleado e morto do local. "
+                texto: "você tenta matar os policiais.",
+                afirmacao: "e acaba sendo baleado e morto no local. "
             }
         ]
     },
@@ -86,6 +86,14 @@ function mostrarPergunta () {
     }
     pergiuntaAtual = perguntas[atual]
     caixaPerguntas.textContent =pergiuntaAtual.enunciado
+    mostraAlternativas() 
 }
+
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativa){
+        
+    }
+}
+
 
 mostrarPergunta()
