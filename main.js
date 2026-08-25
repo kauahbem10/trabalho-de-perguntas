@@ -65,7 +65,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "você corre muito pois os policiais acharam a arma do crime",
-                afirmacao: "e você é pego ."
+                afirmacao: "E você é pego ."
             },
             {
                 texto: "você tenta matar os policiais.",
