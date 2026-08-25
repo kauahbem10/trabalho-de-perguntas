@@ -99,7 +99,7 @@ function mostraAlternativas(){
     }
 }
 function respostaelecionada(opcaoSelecionada){
-    const afirmacoes = opcapSelecionada.afirmacao
+    const afirmacoes = opcaoSelecionada.afirmacao
     historiaFinal+= afismacoes +""
     atual++
     mostrarPergunta()
