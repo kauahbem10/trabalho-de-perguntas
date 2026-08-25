@@ -95,8 +95,19 @@ function mostraAlternativas(){
         const botaoAlternativas = document.creatElement("button")
         botaoAlternativas.textContent =alternativa.texto 
         botaoAlternativas.addEventListener("click",()=> respostaelecionada(alternativa))
+        caixaAlternativas.appedChild(botaoAlternativas)
     }
 }
-
+function respostaelecionada(opcaoSelecionada){
+    const afirmacoes = opcapSelecionada.afirmacao
+    historiaFinal+= afismacoes +""
+    atual++
+    mostrarPergunta()
+}
+function mostrarResultado(){
+    caixaPerguntas.textContent ="Em uma rua deserta..."
+    textoResultado.textContent =historiaFinal
+    caixaAlternativas.textContent ="";
+}
 
 mostrarPergunta()
