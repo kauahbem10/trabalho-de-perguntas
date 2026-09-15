@@ -129,7 +129,7 @@ function mostraAlternativas(){
     }
 }
 function respostaelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao
+    const afirmacoes= aleatorio(opcaoSelecionada.afirmacao)
     historiaFinal+= afirmacoes +""
     atual++
     mostrarPergunta()
@@ -138,6 +138,10 @@ function mostrarResultado(){
     caixaPerguntas.textContent ="Em uma rua deserta..."
     textoResultado.textContent =historiaFinal
     caixaAlternativas.textContent ="";
+}
+function aleatorio(lista){
+    conts posicao = Math.random()*lista.length
+    console.log(posicao)
 }
 
 mostrarPergunta()
