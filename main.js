@@ -36,7 +36,7 @@ const perguntas = [
                     "Conseguiu fazer de forma certa",
                     "fez tudo errado"
                 ]
-            }
+            },
             {
                 texto: "você sai rápido do veículo, e o policial está suspeitando.",
                 afirmacao:[ 
