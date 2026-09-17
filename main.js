@@ -140,7 +140,7 @@ function mostrarResultado(){
     caixaAlternativas.textContent ="";
 }
 function aleatorio(lista){
-    conts posicao = Math.random()*lista.length
+    const posicao = Math.random()*lista.length
     console.log(posicao)
 }
 
