@@ -43,9 +43,6 @@ function mostrarResultado(){
     textoResultado.textContent =historiaFinal
     caixaAlternativas.textContent ="";
 }
-function aleatorio(lista){
-    const posicao = Math.random()*lista.length
-    console.log(posicao)
-}
+
 
 mostrarPergunta()
